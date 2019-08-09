@@ -23,12 +23,16 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
     <docsUrl>https://docs.zephyrproject.org/latest/getting_started/toolchain_3rd_party_x_compilers.html#gnu-arm-embedded</docsUrl>
-    <mailingListUrl>https://lists.zephyrproject.org/g/main/subgroups</mailingListUrl>
-    <bugTrackerUrl>https://github.com/zephyrproject-rtos/zephyr/issues</bugTrackerUrl>
+    <!-- <mailingListUrl>https://lists.zephyrproject.org/g/main/subgroups</mailingListUrl> -->
+    <!-- <bugTrackerUrl>https://github.com/zephyrproject-rtos/zephyr/issues</bugTrackerUrl> -->
     <tags>zephyr-gnuarmemb zephyr toolchain</tags>
     <summary>Zephyr 3rd Party Toolchain</summary>
-    <description>GNU ARM Embedded toolchain wrapper to be used with Zephyr-IDE package</description>
-    <releaseNotes>This package is a wrapper to install environment variables required by the zephyrproject for the dependency package into the target machine.</releaseNotes>
+    <description>
+    This package is a wrapper to install environment variables required by the zephyrproject for the dependency package into the target machine.
+
+    GNU ARM Embedded toolchain wrapper is intended to be used with Zephyr-IDE package.
+    </description>
+    <!-- <releaseNotes>RELEASE_NOTES</releaseNotes> -->
     <!-- =============================== -->      
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
