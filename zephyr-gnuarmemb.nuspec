@@ -4,7 +4,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>zephyr-gnuarmemb</id>
-    <version>7.2.1.20170904</version>
+    <version>7.3.1</version>
     <packageSourceUrl>https://github.com/n3rd4i/zephyr-gnuarmemb.git</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>n3rd4i</owners>
@@ -28,16 +28,28 @@
     <tags>zephyr-gnuarmemb zephyr toolchain</tags>
     <summary>Zephyr 3rd Party Toolchain</summary>
     <description>
+    # Description:
     This package is a wrapper to install environment variables required by the zephyrproject for the dependency package into the target machine.
 
-    GNU ARM Embedded toolchain wrapper is intended to be used with Zephyr-IDE package.
+    GNU ARM Embedded toolchain wrapper is intended to be used in combination with Zephyr-IDE package.
+
     </description>
-    <!-- <releaseNotes>RELEASE_NOTES</releaseNotes> -->
-    <!-- =============================== -->      
+    <releaseNotes>
+    # RELEASE_NOTES:
+
+    ## 7.3.1:
+    * this is the recommended version from Zephyr platform to work with 1.14.0
+    * mainly version and docs changes
+
+    ## 7.2.1: initial version, based on 7.2.1 gcc-arm-embedded
+    * environment set-up based on Zephyr official documentation
+
+    </releaseNotes>
+    <!-- =============================== -->
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
     <dependencies>
-      <dependency id="gcc-arm-embedded" version="7.2.1.20170904" />
+      <dependency id="gcc-arm-embedded" version="[7.3.1.20180627]" />
     </dependencies>
   </metadata>
   <files>
