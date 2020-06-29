@@ -4,7 +4,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>zephyr-gnuarmemb</id>
-    <version>9.2.1</version>
+    <version>9.3.1</version>
     <packageSourceUrl>https://github.com/n3rd4i/zephyr-gnuarmemb.git</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>n3rd4i</owners>
@@ -37,6 +37,9 @@
     <releaseNotes>
     # RELEASE_NOTES:
 
+    ## 9.3.1:
+    * mainly version and docs changes
+
     ## 9.2.1:
     * this is the recommended version from Zephyr platform to work with 2.2.x
     * mainly version and docs changes
@@ -53,7 +56,7 @@
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
     <dependencies>
-      <dependency id="gcc-arm-embedded" version="[9.2.1]" />
+      <dependency id="gcc-arm-embedded" version="[9.3.1]" />
     </dependencies>
   </metadata>
   <files>
